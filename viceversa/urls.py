@@ -20,4 +20,5 @@ from . import vis
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', vis.home),
+    path('reversed/', vis.reverse, name='reverse')
 ]
